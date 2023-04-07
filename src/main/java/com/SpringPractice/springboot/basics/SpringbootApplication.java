@@ -1,16 +1,15 @@
-package com.in28minutes.springboot.basics.springbootin10steps;
+package com.SpringPractice.springboot.basics;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-public class SpringbootIn10StepsApplication {
+public class SpringbootApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = 
-				SpringApplication.run(SpringbootIn10StepsApplication.class, args);
+				SpringApplication.run(SpringbootApplication.class, args);
 		
 		for (String name : applicationContext.getBeanDefinitionNames()) {
 			System.out.println(name);

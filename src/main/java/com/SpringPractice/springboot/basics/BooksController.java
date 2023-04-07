@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.basics.springbootin10steps;
+package com.SpringPractice.springboot.basics;
 
 import java.util.Arrays;
 import java.util.List;
